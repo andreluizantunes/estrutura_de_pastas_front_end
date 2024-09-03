@@ -227,21 +227,21 @@ O operador || é verdadeiro se pelo menos uma das condições for verdadeira.
     let diaDaSemana = "sábado";
 
     /* Utiliza a estrutura condicional 'if' para verificar se hoje é sábado ou domingo.
-      A condição verifica duas possíveis verdades usando o operador lógico OR '||':
-      1. Se 'diaDaSemana' é igual a "sábado".
-      2. Se 'diaDaSemana' é igual a "domingo".
-      O operador '===' é usado para comparação estrita, significando que o valor e o tipo devem ser exatamente iguais.
+    A condição verifica duas possíveis verdades usando o operador lógico OR '||':
+    1. Se 'diaDaSemana' é igual a "sábado".
+    2. Se 'diaDaSemana' é igual a "domingo".
+    O operador '===' é usado para comparação estrita, significando que o valor e o tipo devem ser exatamente iguais.
       Se qualquer uma dessas condições for verdadeira, o bloco de código dentro do 'if' será executado. */
     if (diaDaSemana === "sábado" || diaDaSemana === "domingo") {
-   
+
     /* Se a condição acima for verdadeira (ou seja, se for sábado ou domingo),
         executa o bloco de código dentro das chaves a seguir.
         Aqui, 'console.log' é usado para imprimir a mensagem "É fim de semana!" no console,
           indicando que o dia atual é sábado ou domingo. */
         console.log("É fim de semana!");
-   
+
     } else {
-   
+
     /* Se nenhuma das condições no 'if' for verdadeira (ou seja, não é nem sábado nem domingo),
         o bloco de código dentro do 'else' é executado.
         Isso significa que o dia atual é um dos dias úteis da semana (de segunda a sexta).
@@ -250,4 +250,3 @@ O operador || é verdadeiro se pelo menos uma das condições for verdadeira.
     console.log("Não é fim de semana.");
     
 }
-
