@@ -119,12 +119,3 @@ const MODO_DEBUG = false;
 console.log("Máximo de usuários por sala:", MAX_USUARIOS_POR_SALA);
 console.log("Modo de depuração ativado:", MODO_DEBUG);
 
-
-
-
-
-
-
-
-
-
