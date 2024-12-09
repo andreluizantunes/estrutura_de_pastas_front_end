@@ -1,0 +1,163 @@
+/* ========================
+    Links para Fontes
+======================== */
+/* Adicione aqui os links para as fontes externas, como Google Fonts, por exemplo: */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); */
+/* Ou utilize links no HTML: <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> */
+
+/* ========================
+    Reset CSS
+======================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%; /* Define 1rem = 16px */
+}
+
+body {
+    font-family: var(--font-family-primary);
+    font-size: 1rem; /* Tamanho base: 16px */
+    line-height: 1.6;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+}
+
+
+
+/* ========================
+    Variáveis Globais
+======================== */
+:root {
+    /* Cores principais */
+    --color-primary: #4CAF50; /* Verde */
+    --color-secondary: #FFC107; /* Amarelo */
+    --color-accent: #2196F3; /* Azul */
+    --color-danger: #F44336; /* Vermelho */
+
+    /* Cores de fundo */
+    --color-bg: #FFFFFF; /* Branco */
+    --color-bg-dark: #121212; /* Escuro */
+
+    /* Cores de texto */
+    --color-text: #333333; /* Cinza escuro */
+    --color-text-light: #FFFFFF; /* Branco */
+
+    /* Cores neutras */
+    --color-gray-light: #F5F5F5; /* Cinza claro */
+    --color-gray: #BDBDBD; /* Cinza médio */
+    --color-gray-dark: #616161; /* Cinza escuro */
+
+    /* Tamanhos de fonte */
+    --font-size-xs: 0.75rem; /* 12px */
+    --font-size-sm: 0.875rem; /* 14px */
+    --font-size-md: 1rem; /* 16px */
+    --font-size-lg: 1.25rem; /* 20px */
+    --font-size-xl: 1.5rem; /* 24px */
+    --font-size-xxl: 2rem; /* 32px */
+
+    /* Fontes */
+    --font-family-primary: 'Arial', sans-serif;
+    --font-family-secondary: 'Georgia', serif;
+}
+
+
+
+/* ========================
+    Elementos Comuns
+======================== */
+
+/* Títulos */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h1 { font-size: var(--font-size-xxl); }
+h2 { font-size: var(--font-size-xl); }
+h3 { font-size: var(--font-size-lg); }
+h4 { font-size: var(--font-size-md); }
+h5 { font-size: var(--font-size-sm); }
+h6 { font-size: var(--font-size-xs); }
+
+/* Parágrafos */
+p {
+    margin-bottom: 1rem;
+    font-size: var(--font-size-md);
+    color: var(--color-text);
+}
+
+/* Links */
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Botões */
+button {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-md);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+}
+
+button:hover {
+    background-color: var(--color-secondary);
+}
+
+
+
+/* ========================
+    Utilitários
+======================== */
+.text-center {
+    text-align: center;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.mt-1 { margin-top: 0.25rem; }
+.mt-2 { margin-top: 0.5rem; }
+.mt-3 { margin-top: 1rem; }
+.mt-4 { margin-top: 1.5rem; }
+
+.mb-1 { margin-bottom: 0.25rem; }
+.mb-2 { margin-bottom: 0.5rem; }
+.mb-3 { margin-bottom: 1rem; }
+.mb-4 { margin-bottom: 1.5rem; }
+
+
+
+
+/* ========================
+    Media Queries
+======================== */
+/* Adicione aqui os estilos para diferentes tamanhos de tela. Exemplos: */
+
+/* Estilos para tablets (>=768px) */
+@media (min-width: 768px) {
+    body {
+        font-size: 1.125rem; /* Aumenta a fonte para 18px em telas maiores */
+    }
+}
+
+/* Estilos para desktops (>=1024px) */
+@media (min-width: 1024px) {
+    body {
+        font-size: 1.25rem; /* Aumenta a fonte para 20px em telas grandes */
+    }
+}
