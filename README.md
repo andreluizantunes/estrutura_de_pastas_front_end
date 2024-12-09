@@ -78,18 +78,6 @@ estrutura_de_pastas_front_end/
 ## 🚀 Funcionalidades
 
 - Estrutura modular para organização limpa e eficiente.
-- Pronta para escalabilidade em projetos de médio a grande porte.
-- Configuração inicial para responsividade e interatividade.
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-- **HTML5**: Para a estrutura semântica do projeto.
-- **CSS3**: Para estilização, responsividade e layout.
-- **JavaScript**: Para funcionalidades dinâmicas e interativas.
-- **Font Awesome (opcional)**: Para ícones (caso seja necessário).
-- **Google Fonts (opcional)**: Para personalização tipográfica.
 
 ---
 
